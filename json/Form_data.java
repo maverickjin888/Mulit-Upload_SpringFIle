@@ -1,47 +1,54 @@
+
 package bitplace.vo;
 
 import java.util.List;
 
 public class Form_data {
 
-	List<Bean> list;
-	
-	List<Bean> list2;
+/*
+ 이 부분이 문제인 것 같습니다. 
+  제가 잘못하고 있나요? 
+*/
 
-	List<Bean> list3;
+	List list;
 	
-	List<Bean> list4;
+	List list2;
+
+	List list3;
+	
+	List list4;
 	
 	
-	public List<Bean> getList4() {
+	public List getList4() {
 		return list4;
 	}
 
-	public void setList4(List<Bean> list4) {
+	public void setList4(List list4) {
 		this.list4 = list4;
 	}
 
-	public List<Bean> getList3() {
+	public List getList3() {
 		return list3;
 	}
 
-	public void setList3(List<Bean> list3) {
+	public void setList3(List list3) {
 		this.list3 = list3;
 	}
 
-	public List<Bean> getList2() {
+	public List getList2() {
 		return list2;
 	}
 
-	public void setList2(List<Bean> list2) {
+	public void setList2(List list2) {
 		this.list2 = list2;
 	}
 
-	public List<Bean> getList() {
+	public List getList() {
 		return list;
 	}
 
-	public void setList(List<Bean> list) {
+	public void setList(List list) {
 		this.list = list;
 	}
 }
+
