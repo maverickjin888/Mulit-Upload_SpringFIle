@@ -1,2 +1,21 @@
-false,작동하는 파일 내용인지 확인해봅십시오 
+case "FormData BUtton" :
+
+System.out.println("Login_controller memNO : ");
+bean.setEmail(request).getparemter('email')
+res=repository.loginBtn(bean);
+
+if(bean!=null){
+    System.out.println(Login_Controller result : ");
+    
+    
+}
+
+bean = new Bean();
+bean.setMemno(0);
+
+res = bean;
+
+
+
+
 
